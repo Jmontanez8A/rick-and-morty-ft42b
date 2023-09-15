@@ -1,0 +1,42 @@
+.textos {
+  color: #232423f7;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.info {
+  text-align: left;
+  font-size: 16px;
+  border: 2px solid rgba(118, 163, 117, 0.734);
+  background-color: #aaffaadd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.image {
+  border-radius: 10px;
+  border: 2px solid rgba(118, 163, 117, 0.734);
+}
+
+.divPrincipal {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.styleButton {
+  background-color: rgba(255, 0, 0, 0.718);
+  color: #aaffaadd;
+  border: 0px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 35px;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}

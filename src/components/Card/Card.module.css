@@ -1,0 +1,40 @@
+/* Esta es Card.module.css */
+
+.container {
+  border: 3px solid rgba(118, 163, 117, 0.734);
+  background-color: #aaffaadd;
+  border-radius: 15px;
+  width: 180px;
+  padding: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.link {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-decoration: none;
+  color: #232423f7;
+  text-align: center;
+  font-size: 18px;
+}
+.image {
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(255, 0, 0, 0.718);
+  color: #aaffaadd;
+  border: none;
+  border-radius: 5px;
+}
+
+.dataContainer {
+  text-align: left;
+  padding: 10px;
+  margin: 2px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.25);
+}

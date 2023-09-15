@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2324230f;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  background-color: #aaffaadd;
+  /* hacer el fondo más transparente */
+  outline: 5px solid #aaffaaa0;
+  animation: border-animation 1s infinite;
+  transition: transform 0.5s;
+}
+
+@keyframes border-animation {
+  0% {
+    outline-color: #ffe3aaa0;
+    outline-width: 5px;
+  }
+  25% {
+    outline-color: #fffeaaa0;
+    outline-width: 6px;
+  }
+  50% {
+    outline-color: #f4ffaaa0;
+    outline-width: 7px;
+  }
+  75% {
+    outline-color: #ccffaab6;
+    outline-width: 8px;
+  }
+  100% {
+    outline-color: #aaffcba0;
+    outline-width: 9px;
+  }
+}
+
+form {
+  transform: translateY(0);
+}
+form:hover {
+  transform: translateY(calc(var(--direction) * -10px));
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  border: solid thin #ddd;
+}
+
+button {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(118, 163, 117, 0.734);
+  color: #aaffaadd;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+button:hover {
+  /* agregar una animación al botón */
+  animation-name: pulse;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
